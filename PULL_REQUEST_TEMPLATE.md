@@ -8,15 +8,15 @@
 - [ ] New system or trust boundary: threat model (STRIDE) in `docs/architecture.md`
 
 ## How it was tested
-- [ ] Automated tests added/updated (unit, integration, IaC, e2e, a11y as applicable); CI green
+- [ ] Automated tests added/updated (unit, integration, infra-script checks, e2e, a11y as applicable); CI green
 - [ ] Bug fix: regression test included
 - [ ] UI change: browser e2e on desktop + mobile emulation
 - [ ] Launch or major UI change (new page/flow, navigation/layout change): AI exploratory pass done, findings ticketed
 - [ ] Manual / live checks: <!-- commands, URLs, screenshots -->
 
 ## Deployment & rollback
-- [ ] Infra: `cdk diff` reviewed, no unexpected replacement
-- `cdk diff` summary: <!-- adds / changes / deletes / replacements per stack -->
+- [ ] Infra: converging AWS CLI script reviewed, `DRY_RUN=1` plan pasted, RUNBOOK `R-NNN` entry (IDs + Verified). No CDK, Terraform or CloudFormation templates (ADR 0011)
+- `DRY_RUN=1` plan: <!-- planned mutations per script, or "no changes" -->
 - [ ] Org- or account-wide AWS change: Dragos's explicit OK (link/quote)
 - Rollback: <!-- how to undo -->
 
