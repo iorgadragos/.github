@@ -15,7 +15,8 @@
 - [ ] Manual / live checks: <!-- commands, URLs, screenshots -->
 
 ## Deployment & rollback
-- [ ] Infra: `cdk diff` reviewed, no unexpected replacement (paste the summary below)
+- [ ] Infra: `cdk diff` reviewed, no unexpected replacement
+- `cdk diff` summary: <!-- adds / changes / deletes / replacements per stack -->
 - [ ] Org- or account-wide AWS change: Dragos's explicit OK (link/quote)
 - Rollback: <!-- how to undo -->
 
@@ -30,7 +31,7 @@
 |---|---|---|
 | 1 | | |
 
-## Post-merge (fill in a comment after merging)
+## Post-merge (tick these after merging)
 - [ ] Deploy watched (run link)
 - [ ] Verified live (URL / smoke output)
 - [ ] Ticket closed with evidence
